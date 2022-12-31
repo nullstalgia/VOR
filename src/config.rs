@@ -126,7 +126,7 @@ fn read_configs() -> (RouterConfig, Vec<VORConfigWrapper>, PacketFilter) {
 
     #[cfg(target_os = "windows")]
     let vor_root_dir = format!(
-        "{}\\AppData\\LocalLow\\VRChat\\VRChat\\OSC\\VOR",
+        "{}\\AppData\\LocalLow\\VOR",
         get_user_home_dir()
     );
 
